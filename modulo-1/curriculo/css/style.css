@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    outline: 1px solid limegreen !important;
+}
+
+html {
+    background-color: darkblue;
+    margin: 8px;
+}
+
+body {
+    background-color: lightcyan;
+    padding:0 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.principal  {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 23px;
+}
+
+.profile-picture {
+    height: auto;
+    width: 200px;
+    border-radius: 50%;
+    margin: 10px auto 5px auto;
+}
+
+.left {
+    width: 50%;
+    float: left;
+}
+
+.right {
+    width: 50%;
+    float: right;
+}
+
+footer {
+    text-align: center;
+    font-size: 10px; 
+    margin-top: 100px;
+    width: 100%; 
+}
+
+.footer {
+    border-radius: 50%;
+    width: 30px;
+}
