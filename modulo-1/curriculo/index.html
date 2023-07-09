@@ -1,146 +1,373 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Curriculum Vitae - Lorem Ipsum Dolor Sit</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8"></meta>
 
-    <!-- Reseteando el comportamiento predeterminado de margenes y padding -->
-    <!--  <style>
-         * {
-            margin: 0;
-            padding: 0;
-        }
-    </style> -->
+    <meta
+        http-equiv="X-UA-Compatible"
+        content="IE=edge"
+    ></meta>
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    ></meta>
+
+    <link
+        rel="stylesheet"
+        href="./css/style.css"
+    ></link>
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    ></link>
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin="crossorigin"
+    ></link>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&family=Montserrat:wght@300&display=swap"
+        rel="stylesheet"
+    ></link>
+
+    <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    ></link>
+
+    <title>
+        My Curriculum Vitae - Lorem Ipsum Dolor Sit
+    </title>
 </head>
 
 <body>
+    <header>
 
-    <header class="principal">
-        <img class="profile-picture" src="https://cdn.pixabay.com/photo/2017/01/30/23/52/female-2022387_960_720.png"
-            alt="Profile photo">
+        <div>
+            <h1 class="header__name">Lorem Ipsum Dolor Sit</h1>
+            <h2 class="header__description">Web Designer</h2>
+        </div>
 
-        <h1>Lorem Ipsum Dolor Sit</h1>
+        <img
+            class="avatar"
+            src="https://cdn.pixabay.com/photo/2017/01/30/23/52/female-2022387_960_720.png"
+            alt="Profile photo"
+        >
+
     </header>
 
+    <aside>
+        <section class="my-info-aside">
+            <h3>CONTACT</h3>
 
-    <section class="left">
-        <section>
-            <p>
-                <span>Contact:</span>
-                <span>+52 456 856 4512</span>
-            </p>
+            <ul>
+                <li>
+                    <span class="material-symbols-outlined">woman</span>
 
-            <p>
-                <span>Email:</span>
-                <span>mail@example.com</span>
-            </p>
+                    Female
+                </li>
 
-            <p>
-                <span>GitHub:</span>
-                <span>https://github.com/profile</span>
-            </p>
+                <li>
+                    <span class="material-symbols-outlined">today</span>
 
+                    May 19, 1999
+                </li>
+
+                <li>
+                    <span class="material-symbols-outlined">phone_in_talk</span>
+
+                    123-456-7891
+                </li>
+
+                <li>
+                    <span class="material-symbols-outlined">mail</span>
+
+                    mymail@example.com
+                </li>
+
+                <li>
+                    <span class="material-symbols-outlined">language</span>
+
+                    https://github.com/Elizabeth-MB
+                </li>
+
+                <li>
+                    <span class="material-symbols-outlined">pin_drop</span>
+
+                    Oaxaca, México
+                </li>
+            </ul>
         </section>
 
+        <section class="my-info-aside">
+            <h3>SKILLS</h3>
+
+            <ul>
+                <li>React</li>
+
+                <!-- <label for="file">React</label> -->
+
+                <progress
+                    id="file"
+                    value="32"
+                    max="100"
+                >32%</progress>
+
+                <li>HTML</li>
+
+                <!-- <label for="file">React</label> -->
+
+                <progress
+                    id="file"
+                    value="32"
+                    max="100"
+                >32%</progress>
+
+                <li>React</li>
+
+                <!-- <label for="file">React</label> -->
+
+                <progress
+                    id="file"
+                    value="32"
+                    max="100"
+                >32%</progress>
+
+                <li>JavaScript</li>
+
+                <!-- <label for="file">React</label> -->
+
+                <progress
+                    id="file"
+                    value="32"
+                    max="100"
+                >32%</progress>
+            </ul>
+        </section>
+
+        <section>
+            <li>Languages</li>
+
+            <ul>
+                <li>Spanish</li>
+
+                <!-- <label for="file">React</label> -->
+
+                <progress
+                    id="file"
+                    value="32"
+                    max="100"
+                >32%</progress>
+
+                <li>English</li>
+
+                <!-- <label for="file">React</label> -->
+
+                <progress
+                    id="file"
+                    value="32"
+                    max="100"
+                >32%</progress>
+
+                <li>Portuguese</li>
+
+                <!-- <label for="file">React</label> -->
+
+                <progress
+                    id="file"
+                    value="32"
+                    max="100"
+                >32%</progress>
+            </ul>
+        </section>
+
+        <section class="my-info-aside">
+            <h3>HONORS & AWARDS</h3>
+
+            <p>
+                <span>2013</span>
+
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad saepe earum corrupti?
+            </p>
+        </section>
+
+        <section class="my-info-aside">
+            <h3>CERTIFICATIONS</h3>
+
+            <p>
+                <strong>2018</strong>
+
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ducimus.
+            </p>
+        </section>
+
+        <section class="my-info-aside">
+            <h3>INTERESTS</h3>
+
+            <ul>
+                <li>Lorem, ipsum.</li>
+
+                <li>Lorem, ipsum dolor.</li>
+
+                <li>Lorem, ipsum.</li>
+            </ul>
+        </section>
+    </aside>
+
+    <article>
+        <section>
+            <h3>OBJETIVE</h3>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum veniam sed neque. Quis nihil sequi consectetur nostrum, deserunt ab natus atque culpa tempore expedita incidunt. Harum aliquam accusamus ab consectetur!
+            </p>
+        </section>
+
+        <section class="education">
+            <h3>EDUCATION</h3>
+        </section>
+    </article>
+
+    <section class="left">
         <section>
             <h2>Estudios</h2>
 
             <section>
-                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing. (University)</h3>
-                <p>Lorem ipsum dolor sit amet. (Career)</p>
+                <h3>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing. (University)
+                </h3>
+
+                <p>
+                    Lorem ipsum dolor sit amet. (Career)
+                </p>
+
                 <span>2017</span>
             </section>
+
             <section>
-                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing.</h3>
-                <p>Lorem ipsum dolor sit amet. (Career)</p>
+                <h3>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing.
+                </h3>
+
+                <p>
+                    Lorem ipsum dolor sit amet. (Career)
+                </p>
+
                 <span>2017</span>
             </section>
+
             <section>
-                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing.</h3>
-                <p>Lorem ipsum dolor sit amet. (Career)</p>
+                <h3>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing.
+                </h3>
+
+                <p>
+                    Lorem ipsum dolor sit amet. (Career)
+                </p>
+
                 <span>2017</span>
             </section>
         </section>
 
         <section>
             <h3>Bootcamps</h3>
+
             <ol type="a">
                 <li>Lorem ipsum dolor sit.</li>
+
                 <li>Lorem, ipsum dolor.</li>
+
                 <li>Lorem ipsum dolor sit.</li>
             </ol>
         </section>
-        
+
         <section>
             <h3>Courses</h3>
+
             <ol type="a">
                 <li>Lorem ipsum dolor sit.</li>
+
                 <li>Lorem, ipsum dolor.</li>
+
                 <li>Lorem ipsum dolor sit.</li>
+
                 <li>Lorem ipsum dolor sit amet.</li>
+
                 <li>Lorem ipsum dolor sit.</li>
-                <li>Lorem ipsum dolor sit amet consectetur.</li>
+
+                <li>
+                    Lorem ipsum dolor sit amet consectetur.
+                </li>
+
                 <li>Lorem ipsum dolor sit.</li>
             </ol>
         </section>
     </section>
 
     <section class="right">
-
         <section>
             <h2>Experiencia Laboral</h2>
 
             <section>
                 <h3>Título trabajo</h3>
+
                 <h4>Empresa</h4>
+
                 <h5>Fecha</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis sed iste exercitationem a adipisci
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis sed iste exercitationem a adipisci
                     dolores
-                    accusamus ex blanditiis non earum!</p>
+                    accusamus ex blanditiis non earum!
+                </p>
             </section>
 
             <section>
                 <h3>Lorem ipsum dolor sit.</h3>
+
                 <h4>Lorem, ipsum.</h4>
+
                 <h5>Abril 2022</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis sed iste exercitationem a adipisci
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis sed iste exercitationem a adipisci
                     dolores
-                    accusamus ex blanditiis non earum!</p>
+                    accusamus ex blanditiis non earum!
+                </p>
             </section>
 
             <section>
                 <h3>Lorem ipsum dolor sit.</h3>
+
                 <h4>Lorem, ipsum.</h4>
+
                 <h5>Abril 2022</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis sed iste exercitationem a adipisci
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis sed iste exercitationem a adipisci
                     dolores
-                    accusamus ex blanditiis non earum!</p>
+                    accusamus ex blanditiis non earum!
+                </p>
             </section>
 
             <section>
                 <h3>Lorem ipsum dolor sit.</h3>
-                <h4>Lorem, ipsum.</h4>
-                <h5>Abril 2022</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis sed iste exercitationem a adipisci
-                    dolores
-                    accusamus ex blanditiis non earum!</p>
-            </section>
 
+                <h4>Lorem, ipsum.</h4>
+
+                <h5>Abril 2022</h5>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis sed iste exercitationem a adipisci
+                    dolores
+                    accusamus ex blanditiis non earum!
+                </p>
+            </section>
         </section>
     </section>
-
-    <footer>
-        <p>Follow me!</p>
-        <a href="https://github.com/Elizabeth-MB">
-            <img class="footer" src="https://cdn.pixabay.com/photo/2021/09/11/12/17/github-6615451_960_720.png"
-                alt="Enlace a GitHub">
-        </a>
-    </footer>
-
 </body>
-
 </html>
